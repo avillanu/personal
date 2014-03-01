@@ -1,0 +1,93 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face
+{
+font-family: myFirstFont;
+src: url(Vegur-Light.otf);
+}
+@font-face
+{
+font-family: mySecondFont;
+src: url(Vegur-Regular.otf);
+}
+a:link {color:#107FC9; font-family:mySecondFont;}
+a:visited {color:#107FC9; font-family:mySecondFont;}
+a:hover {color:#FFFFFF; font-family:mySecondFont;}
+
+body {
+background-color:#0C0F66;
+}
+
+#new {
+width:650px;
+color:#ffffff;
+margin-top:75px;
+margin-left:30px;
+font-family:myFirstFont;
+font-size: 2.3em;
+line-height: 130%;
+}
+
+
+#navbar {
+	width:650px;
+color:#ffffff;
+font-size: 2.3em;
+line-height: 130%;	
+margin-top:150px;
+margin-left:30px;
+}
+
+#navbar li {
+	display: inline;
+	padding-right :5px;
+}
+
+}
